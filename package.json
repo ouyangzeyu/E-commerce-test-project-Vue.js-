@@ -1,0 +1,35 @@
+{
+  "name": "Vue-mall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.dev.js --progress --open --hot --port 6008"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "element-ui": "^2.0.11",
+    "iview": "^2.9.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.20.1",
+    "vue": "^2.5.13",
+    "vue-lazyload": "^1.1.4",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.3",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "vue-loader": "^13.7.0",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
